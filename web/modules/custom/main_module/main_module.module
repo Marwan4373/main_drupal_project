@@ -5,6 +5,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  */
 function main_module_form_alter(&$form, FormStateInterface $form_state, $form_id) {
-    // Your alterations here.
+    dump("hello");
+    die();
 
   }
